@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="">
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>HTML Tips and Tricks - Map</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+        <link rel='stylesheet' type='text/css' media='screen' href='../main.css'>
+    </head>
+
+    <body>
+        <div class="demo">
+            <div class="header">
+            <a href="../index.html" class="home">
+                <img src="../home.svg" width="65" height="65" alt="home" />
+            </a>
+            <h1> Image map </h1>
+            </div>
+            <b>Click on one of the Gods in the picture below to be taken to a subpage about that God or Goddess (or their stead) specifically.</b>
+            <div>
+                <img src="kali-correction-by-durga.jpg" width="500" height="600" alt="Circus" usemap="#godsmap">
+
+                <map name="godsmap">
+                    <area shape="rect" coords="67,114,207,254" href="durga.htm" alt="Lady Durga">
+                    <area shape="rect" coords="122,251,318, 316" href="lion.htm" alt="Lion">
+                    <area shape="rect" coords="35,328,143,500" href="shiva.htm" alt="Lord Shiva">
+                    <area shape="circle" coords="426,409,200" href="kali.htm" alt="Lady Kali">
+                </map>
+            </div>
+        </div>
+    </body>
+</html>

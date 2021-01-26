@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>HTML Tips and Tricks - Output</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet"> 
+        <link rel='stylesheet' type='text/css' media='screen' href='../main.css'>
+    </head>
+
+    <body>
+        <div class="demo">
+            <div class="header">
+
+            <a href="../index.html" class="home">
+                <img src="../home.svg" width="65" height="65" alt="home" />
+            </a>
+            <h1> Output Element </h1>
+            </div>
+            <p>This will provide you with the answer to inputted number.</p>
+            <form oninput="x.value=parseInt(a.value) * parseInt(b.value)">
+                <input type="number" id="a" value="0">
+                * <input type="number" id="b" value="0">
+                = <output name="x" for="a b"></output>
+            </form>
+        </div>
+    </body>
+</html>

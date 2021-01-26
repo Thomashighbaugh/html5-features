@@ -6,9 +6,18 @@ body {
 }
 
 a {
-  color: #61dafb;
+  color: #edeeff;
+  text-shadow: 0.12rem 0.12rem #00caff;
+  text-decoration: none;
 }
-
+h1{
+  text-shadow: #555e70 0.3rem 0.3rem;
+  font-size: 4rem;
+}
+img{
+  justify-self: center;
+  align-self: center;
+}
 .details {
   border-collapse: collapse;
   width: 100%;
@@ -21,7 +30,7 @@ p{
 .details td {
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #edeeff;
 }
 
 li {
@@ -65,12 +74,12 @@ p{
   margin: 2rem 10rem;
   padding: 3rem;
   border-radius: 18px;
-  border: #dddddd 0.25rem solid;
+  border: #edeeff 0.25rem solid;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #343a40;
+  background: #343a40bb;
   min-height: 40rem;
 }
 
@@ -106,18 +115,19 @@ dialog::backdrop {
   margin-left: 5rem;
   margin-right: 5rem;
   width: 40%;
-  border: 1px solid #ddd;
+  border: 1px solid #edeeff;
   border-collapse: collapse;
 
 }
 
 .table-home td{
   padding: 3rem;
-  border: 4px solid #ddd;
+  border: 4px solid #edeeff;
+  background: #343a40dd;
+
 
 }
 .table-home td a {
-color: #61dafb;
   font-weight: 700;
   font-size: 2rem;
 }
